@@ -30,6 +30,6 @@ def get_reply(message: str) -> str:
         return f"it's {datetime.now().strftime('%d-%m-%Y')}"
     
     if "name" in words:
-        return "Hi, I am Mini Chatbot, Commad-line based. How i can i help you."
+        return "Hi, I am Mini Chatbot, Commad-line based. How can i help you."
     
     return "Sorry, I don't understand that yet."

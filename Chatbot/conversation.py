@@ -5,7 +5,7 @@ import json
 from typing import Literal
 
 class Conversation:
-    def __init__(self):
+    def __init__(self) -> None:
         self.messages: list[dict[str, str]] = []
         
     def add_message(self, role: Literal["user", "assistant"], message: str, time: str) -> None:
