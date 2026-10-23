@@ -10,7 +10,7 @@ JOKES = [
 ]
 
 
-def get_reply(message):
+def get_reply(message: str) -> str:
     message = message.lower().strip()
     for p in "#$%&*()@.,!?":
         message = message.replace(p, "")
