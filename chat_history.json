@@ -1,0 +1,38 @@
+[
+    {
+        "role": "user",
+        "text": "hi"
+    },
+    {
+        "role": "assistant",
+        "text": "Hello! How can I help you today?"
+    },
+    {
+        "role": "user",
+        "text": "hello"
+    },
+    {
+        "role": "assistant",
+        "text": "Hello! How can I help you today?"
+    },
+    {
+        "role": "user",
+        "text": "time"
+    },
+    {
+        "role": "assistant",
+        "text": "it's 01:06 PM"
+    },
+    {
+        "role": "user",
+        "text": "date"
+    },
+    {
+        "role": "assistant",
+        "text": "it's 23:10 2026"
+    },
+    {
+        "role": "user",
+        "text": "/quit"
+    }
+]
