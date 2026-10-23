@@ -52,13 +52,13 @@ print(count_lines("missing.txt"))
 # Exercise 4: Create this dictionary and save it to profile.json with
 # indent=4. Then load it back and print your name and your second skill.
 # profile = {
-#     "name": "Mubeen",
+#     "name": "Dummy",
 #     "goal": "AI Engineer",
 #     "skills": ["Python", "Git", "FastAPI"]
 # }
  
 profile = {
-    "name": "Mubeen",
+    "name": "Dummy",
     "goal": "AI Engineer",
     "skills": ["Python", "Git", "FastAPI"]
 }

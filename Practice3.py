@@ -22,11 +22,11 @@ print(len(full_name))
 # print(city[::-1])
  
 # Answer:
-G
-a
-Gujr
-anwala
-alawnarjuG
+# G
+# a
+# Gujr
+# anwala
+# alawnarjuG
  
  
 # Exercise 3: Ask the user for an email address. Print the username

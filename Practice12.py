@@ -134,7 +134,7 @@ class Cart:
     def total(self):
         return sum(self.items.values())
     
-     def show(self):
+    def show(self):
         for name, price in self.items.items():
             print(f"{name}: Rs {price}")
         print(f"Total: Rs {self.total()}")
@@ -195,8 +195,8 @@ print(m.info())
 
 import json
 class Conversation:
-    def __init__(self, messages = []):
-        self.messages = messages
+    def __init__(self):
+        self.messages = []
         
     def add_message(self, role, message):
         if role not in ("user", "assistant"):

@@ -5,7 +5,7 @@
 # Exercise 1: Write a program that prints your name, your city, and
 # your favorite food, each on a separate line.
  
-name = "Mubeen"
+name = "Dummy"
 city = "Gujranwala"
 fav_food = "Pizza"
  
@@ -33,9 +33,9 @@ print(f"I bought {quantity} {item} for {price} rupees each.")
 # print(type(b))
  
 # Answer:
-15
-105
-'str'
+# 15
+# 105
+# 'str'
  
  
 # Exercise 4 (challenge): Create variables for the length and width of

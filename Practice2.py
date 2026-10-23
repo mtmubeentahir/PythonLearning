@@ -4,7 +4,7 @@
  
 # Exercise 1: Ask the user for their name and birth year. Calculate
 # their age (use 2026) and print:
-# Hi Mubeen, you are about 30 years old.
+# Hi name, you are about 30 years old.
  
 name = input("What is your name? ")
 birth_year = int(input("What is your birth year? "))
@@ -32,10 +32,10 @@ print(f"Division: {a / b}")
 # print(7 == 7.0)
  
 # Answer:
-3
-2
-8
-True
+# 3
+# 2
+# 8
+# True
  
  
 # Exercise 4: Shopping bill. Ask the user for a product price and the
