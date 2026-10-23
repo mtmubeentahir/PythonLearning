@@ -23,8 +23,8 @@ while True:
     if message.startswith('/search '):
         word = message.split()[1].lower()
         for msg in chat_history.messages:
-            if word in msg["text"].lower():
-                print(f"{msg['role']}: {msg['text']}")
+            if word in msg.text.lower():
+                print(f"{msg.role}: {msg.text}")
         continue
 
     if message.startswith('/'):
@@ -39,7 +39,7 @@ while True:
                 user_count = 0
                 bot_count = 0
                 for msg in chat_history.messages:
-                    if msg["role"] == "user":
+                    if msg.role == "user":
                         user_count += 1
                     else:
                         bot_count += 1
